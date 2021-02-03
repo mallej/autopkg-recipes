@@ -20,25 +20,8 @@
 			<array>
 				<string>testing</string>
 			</array>
-			<key>description</key>
-			<string>&lt;i&gt;This item installs JDDD - a program to draw and run control system panels.&lt;/i&gt;&lt;br&gt;
-&lt;br&gt;
-&lt;strong&gt;Description&lt;/strong&gt;&lt;br&gt;
-The Java DOOCS Data Display (JDDD) is a program to draw control system panels with an editor and to run the created drawings with real data.&lt;br&gt;
-Provided with the most current OpenJDK version no additional Java installation is required.&lt;br&gt;
-Two versions of the program are available. One is the jdddEditor to draw and test the drawings. The second one is a run-time version only, which does not allow to change a drawing.&lt;br&gt;
-The jdddEditor offers reusable Java components like labels, buttons, plots, etc. to draw control system panels. The panel structure is stored in xml-format either to a local file system or to a subversion repository.&lt;br&gt;
-&lt;br&gt;
-&lt;strong&gt;Please note&lt;/strong&gt;
-&lt;ul&gt;
-  &lt;li&gt;Please report bugs to: &lt;a href="mailto:jddd@desy.de?subject=JDDD bugs&amp;"&gt;jddd@desy.de&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;strong&gt;Learn more&lt;/strong&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://ttfinfo.desy.de/elog/XMLlist?file=/DOOCS-public/data/jddd&amp;xsl=/elogbook/xsl/wiki.xsl&amp;picture=true" target="_blank" rel="noopener"&gt;JDDD Documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://ttfinfo.desy.de/DOOCSWiki/Wiki.jsp?page=JDDDTraining" target="_blank" rel="noopener"&gt;JDDD Training&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://ttfinfo.desy.de/DOOCSWiki/Wiki.jsp?page=DOOCS%20Wiki" target="_blank" rel="noopener"&gt;DOOCS Wiki&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</string>
+			<key>minimum_os_version</key>
+			<string>10.11</string>
 			<key>developer</key>
 			<string>DESY MCS4</string>
 			<key>display_name</key>
@@ -55,6 +38,25 @@ The jdddEditor offers reusable Java components like labels, buttons, plots, etc.
 			</array>
 			<key>unattended_install</key>
 			<true/>
+			<key>description</key>
+			<string>&lt;i&gt;This item installs JDDD - a program to draw and run control system panels.&lt;/i&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;strong&gt;Description&lt;/strong&gt;&lt;br&gt;
+The Java DOOCS Data Display (JDDD) is a program to draw control system panels with an editor and to run the created drawings with real data.&lt;br&gt;
+Provided with the most current OpenJDK version no additional Java installation is required.&lt;br&gt;
+Two versions of the program are available. One is the jdddEditor to draw and test the drawings. The second one is a run-time version only, which does not allow to change a drawing.&lt;br&gt;
+The jdddEditor offers reusable Java components like labels, buttons, plots, etc. to draw control system panels. The panel structure is stored in xml-format either to a local file system or to a subversion repository.&lt;br&gt;
+&lt;br&gt;
+&lt;strong&gt;Please note&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Please report bugs to: &lt;a href="mailto:jddd@desy.de?subject=JDDD bugs&amp;"&gt;jddd@desy.de&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;strong&gt;Learn more&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href="https://ttfinfo.desy.de/elog/XMLlist?file=/DOOCS-public/data/jddd&amp;xsl=/elogbook/xsl/wiki.xsl&amp;picture=true" target="_blank" rel="noopener"&gt;JDDD Documentation&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="https://ttfinfo.desy.de/DOOCSWiki/Wiki.jsp?page=JDDDTraining" target="_blank" rel="noopener"&gt;JDDD Training&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="https://ttfinfo.desy.de/DOOCSWiki/Wiki.jsp?page=DOOCS%20Wiki" target="_blank" rel="noopener"&gt;DOOCS Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</string>
 		</dict>
 	</dict>
 	<key>MinimumVersion</key>
