@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
+	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot) by mallej</string>
 	<key>Description</key>
 	<string>Downloads the latest version of JDDD and imports it into Munki.</string>
 	<key>Identifier</key>
@@ -37,6 +37,10 @@
 				<string>jddd</string>
 			</array>
 			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
+			<key>uninstallable</key>
 			<true/>
 			<key>description</key>
 			<string>&lt;i&gt;This item installs JDDD - a program to draw and run control system panels.&lt;/i&gt;&lt;br&gt;
